@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Online CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <button id="themeToggle">Dark Mode</button>
+</header>
+
+<main>
+    <div class="container">
+        <header>
+            <h1>Dave Christian R. Acobo</h1>
+            <p>IT Student | Web Systems and Technologies</p>
+            <img src="profile.jpg" alt="Profile photo of Dave Christian Acobo">
+        </header>
+
+        <main>
+	<section class="card">
+		<h2>About Me</h2>
+		<p>Born on April 13, 2004</p>
+    		<p>I'm trying to impress myself with my capabilities.</p>
+    		<p>Email: <a href="mailto:acobodavechristian47@gmail.com">acobodavechristian47@gmail.com</a></p>
+    		<p>GitHub: <a href="https://github.com" target="_blank">github.com</a></p>
+	</section>
+
+    <!-- Skills -->
+    <section class="card">
+        <h2>Skills</h2>
+
+        <button id="toggleSkills">Show/Hide Skills</button>
+
+        <div id="skillsSection">
+
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar js"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="card">
+        <h2>Education</h2>
+
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>Institution</th>
+                <th>School Attended</th>
+                <th>Year Graduated</th>
+            </tr>
+
+            <tr>
+                <td>Bachelor of Science in Information Management</td>
+                <td>USTP – CDO Campus</td>
+                <td>2024-2028</td>
+            </tr>
+
+            <tr>
+                <td>Technical-Vocational-Livelihood (TVL)</td>
+                <td>Lourdes College</td>
+                <td>2021-2023</td>
+            </tr>
+
+            <tr>
+                <td>Junior High School</td>
+                <td>Pilgrim Christian College</td>
+                <td>2017-2021</td>
+            </tr>
+
+            <tr>
+                <td>Elementary School</td>
+                <td>City Central School</td>
+                <td>2016-2017</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact -->
+    <section class="card">
+        <h2>Contact Me!</h2>
+
+        <form>
+
+            <input type="text" id="name" placeholder="Name">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <textarea placeholder="Message"></textarea>
+
+            <button type="submit" id="submitBtn">Send</button>
+
+        </form>
+    </section>
+
+</div>
+</main>
+
+<footer>
+<p>© 2026 Dave Christian R. Acobo | IT Student | Web Developer</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
